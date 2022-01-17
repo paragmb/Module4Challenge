@@ -1,0 +1,19 @@
+    1  conda create -n dev python=3.9 anaconda
+    2  conda create -n dev python=3.7 anaconda
+    3  conda init bash
+    4  conda --version
+    5  conda init bash
+    6  conda create -n dev python=3.9 anaconda
+    7  git clone https://github.com/paragmb/Module4Challenge.git
+    8  ls
+    9  cd Module4Challenge
+   10  git status
+   11  git status
+   12  git add README.md risk_return_analysis.ipynb Resources/
+   13  git status
+   14  git commit -m "<Updated README.md and added the starter code files>"
+   15  git status
+   16  git push
+   17  conda activate dev
+   18  jupyter lab --Contents.Manager.allow_hidden=True
+   19  history 50 > terminal_history.txt
